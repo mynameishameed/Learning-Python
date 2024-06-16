@@ -1,10 +1,14 @@
-#lets us know about the variables in python
-#basically in python a variable means a container that store a value it in, or you can say that
-#  a value is assigned
-# let's say you want ask the user for input like what is your name?
-print (input("what is your name? "))  #here you can see the name is printed
-#but each time you watn to prkint the name you have to write the whole line of code
-#now if you assign the input to a variable called name
-name = input("what is your name? ")  
-#and now you are just printig the name
-print(name)
+#what is variable and why do we use variables
+# variabel is like a container that store a value which is asssinged to it
+# lets say we asked the user a input
+input("give me a number from 1 to 10: ")
+#here teh user has given a number from 1 to 10 but it is not printed3
+#now you have to show the user what number he has entered
+print(input("give me a number from 1 to 10: "))
+#now each time a number is asked to user and want to print that number
+#we have the this big line of code 
+#but now lets assign the input given by the user to a variable
+number = input("give me a number from 1 to 10: ")
+#now when ever you want to print a number from 1 to 10 given by the user
+#just print the variable
+print(number)
